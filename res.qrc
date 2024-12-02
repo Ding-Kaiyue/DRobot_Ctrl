@@ -1,0 +1,35 @@
+<RCC>
+    <qresource prefix="/">
+        <file>stl/z1_Link06.STL</file>
+        <file>stl/z1_Link05.STL</file>
+        <file>stl/z1_Link04.STL</file>
+        <file>stl/z1_Link03.STL</file>
+        <file>stl/z1_Link02.STL</file>
+        <file>stl/z1_Link01.STL</file>
+        <file>stl/z1_Link00.STL</file>
+        <file>stl/link6.STL</file>
+        <file>stl/link5.STL</file>
+        <file>stl/link4.STL</file>
+        <file>stl/link3.STL</file>
+        <file>stl/link2.STL</file>
+        <file>stl/link1.STL</file>
+        <file>stl/base_link.STL</file>
+        <file>img/up_yellow.jpg</file>
+        <file>img/up_grey.jpg</file>
+        <file>img/StickReleased.png</file>
+        <file>img/StickPressed.png</file>
+        <file>img/right_yellow.jpg</file>
+        <file>img/right_grey.jpg</file>
+        <file>img/right_down_yellow.jpg</file>
+        <file>img/right_down_grey.jpg</file>
+        <file>img/logo.jpg</file>
+        <file>img/left_yellow.jpg</file>
+        <file>img/left_grey.jpg</file>
+        <file>img/left_down_yellow.jpg</file>
+        <file>img/left_down_grey.jpg</file>
+        <file>img/down_yellow.jpg</file>
+        <file>img/down_grey.jpg</file>
+        <file>img/ExecutionName.jpg</file>
+        <file>img/logo1.jpg</file>
+    </qresource>
+</RCC>

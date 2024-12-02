@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>JointPos</class>
+ <widget class="QWidget" name="JointPos">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>525</width>
+    <height>62</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="btnOK">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>6</y>
+     <width>25</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>21</y>
+     <width>159</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_8">
+    <item>
+     <widget class="QLabel" name="J5">
+      <property name="text">
+       <string>J5</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="SliderQ5">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="minimum">
+       <number>-77</number>
+      </property>
+      <property name="maximum">
+       <number>77</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ValueQ5">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>41</y>
+     <width>159</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_9">
+    <item>
+     <widget class="QLabel" name="J6">
+      <property name="text">
+       <string>J6</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="SliderQ6">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="minimum">
+       <number>-160</number>
+      </property>
+      <property name="maximum">
+       <number>160</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ValueQ6">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_5">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>21</y>
+     <width>163</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_11">
+    <item>
+     <widget class="QLabel" name="speedLabel">
+      <property name="text">
+       <string>GV</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="sliderSpeed">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="value">
+       <number>100</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="speedValue">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_6">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>41</y>
+     <width>162</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_12">
+    <item>
+     <widget class="QLabel" name="forceLabel">
+      <property name="text">
+       <string>GF</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="sliderForce">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="value">
+       <number>20</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="forceValue">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>21</y>
+     <width>159</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QLabel" name="J2">
+      <property name="text">
+       <string>J2</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="SliderQ2">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>170</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ValueQ2">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>41</y>
+     <width>159</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_3">
+    <item>
+     <widget class="QLabel" name="J3">
+      <property name="text">
+       <string>J3</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="SliderQ3">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="minimum">
+       <number>-165</number>
+      </property>
+      <property name="maximum">
+       <number>0</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ValueQ3">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>1</x>
+     <y>1</y>
+     <width>159</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QLabel" name="J1">
+      <property name="text">
+       <string>J1</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="SliderQ1">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="minimum">
+       <number>-150</number>
+      </property>
+      <property name="maximum">
+       <number>150</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ValueQ1">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>168</x>
+     <y>1</y>
+     <width>159</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_7">
+    <item>
+     <widget class="QLabel" name="J4">
+      <property name="text">
+       <string>J4</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="SliderQ4">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="minimum">
+       <number>-87</number>
+      </property>
+      <property name="maximum">
+       <number>87</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="ValueQ4">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>335</x>
+     <y>1</y>
+     <width>163</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_10">
+    <item>
+     <widget class="QLabel" name="angleLabel">
+      <property name="text">
+       <string>GP</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSlider" name="sliderAngle">
+      <property name="minimumSize">
+       <size>
+        <width>92</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="maximum">
+       <number>255</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="angleValue">
+      <property name="text">
+       <string>value</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
